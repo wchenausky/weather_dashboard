@@ -16,15 +16,6 @@ $(document).ready(function () {
     $(".list-cities").append(liEl);
   }
 
-  var APIkey = "&appid=4c83c9f681a7fa3a6c27e2526f343718";
-  // Display current and future weather
-  function displayWeather(event) {
-    event.preventDefault();
-    if (searchCity.val().trim() !== "") {
-      (city = searchCity.val()), trim();
-      currentWeather(city);
-    }
-  }
   //Sets API key
 var APIkey = "&appid=4c83c9f681a7fa3a6c27e2526f343718";
 
